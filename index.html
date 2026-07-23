@@ -3,56 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Mthethweni Farming | Agriculture Company</title>
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <title>Mthwethweni Farming</title>
+    <link rel="stylesheet" href="styles.css ">
+    <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-
 <body>
-
-<header>
-    <nav>
-        <div class="container">
-
-            <div class="navbar">
-
-                <a href="index.html" class="logo">
-                    <img src="images/logo/logo.jpg" alt="Mthethweni Farming Logo">
-                </a>
-
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-
-                <a href="contact.html" class="btn-contact">
-                    Contact Us
-                </a>
-
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                 <img src="image/logo.jpg" alt="Mthwethweni Farming Logo" class="logo">
+    <span>Mthwethweni Farming</span>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="" class="navbar__links"> HOME </a>
+                </li>
+                <li class="navbar__item">
+                <a href="/about.html" class ="navbar__links"> about  </a>
+                <a href=" https://wa.me/0712241858" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+                </li>
+                 <li class="navbar__item">
+                    <a href="/product.html"class ="navbar__links"> product  </a>
+                </li>
+                 <li class="navbar__item">
+                    <a href="/service.html"class ="navbar__links"> service  </a>    
+                </li>
+                 <li class="navbar__item">
+                    <a href="/contact.html"class ="navbar__links"> contact  </a>          
+                </li>
+                 <li class="navbar__item">
+                    <a href="/gallery.html"class ="navbar__links"> gallery  </a>                  
+                </li>                 
+                 <li class="navbar__item">
+                    <a href="/"class ="button"> sign up </a>
+                    <a href=" https://wa.me/0712241858" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+                </li>
+            </ul>
         </div>
     </nav>
-</header>
-
-<section class="hero">
+    <!-- hero section -->
+     <section class="hero">
 
     <div class="container">
 
@@ -90,15 +88,17 @@
 
             <div class="hero-image">
 
-                <img src="images/hero/hero-image.png" alt="Fresh poultry">
+                <img src="image/broilers.png" alt="Broiler chickens in a clean poultry shed standing calmly near feeding equipment in a bright, healthy farm environment that suggests trusted, fresh farming quality. No visible text.">
 
             </div>
 
         </div>
 
     </div>
-
 </section>
+<!-- End of hero section -->
+
+ <!--About-->
 <section class="about">
 
     <div class="container">
@@ -107,7 +107,7 @@
 
             <div class="about-image">
 
-                <img src="images/about/about-farm.jpg" alt="Mthethweni Farming">
+                <img src="image/about-farm.jpg" alt="Mthethweni Farming">
 
             </div>
 
@@ -126,11 +126,11 @@
 
                 <ul class="about-list">
 
-                    <li>✔ Premium Broilers</li>
+                    <li>✔️ Premium Broilers</li>
 
-                    <li>✔ Fresh Eggs</li>
+                    <li>✔️ Fresh Eggs</li>
 
-                    <li>✔ Agricultural Training</li>
+                    <li>✔️ Agricultural Training</li>
 
                 </ul>
 
@@ -145,140 +145,80 @@
     </div>
 
 </section>
-<section class="products">
+ <!--end about-->
 
-    <div class="container">
+     <!--Production and Services-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mthetweni Farming - Products & Services</title>
+  <!-- Links your CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-        <span class="section-tag">Our Products</span>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#services">Services</a>
+    </nav>
+  </header>
 
-        <h2 class="section-title">
-            Fresh Products You Can Trust
-        </h2>
-
-        <p class="section-description">
-            We proudly supply premium poultry products produced
-            with quality, care and commitment.
-        </p>
-
-        <div class="products-grid">
-
-            <div class="product-card">
-
-                <img src="images/products/broilers.png"
-                     alt="Live Broilers">
-
-                <h3>Live Broilers</h3>
-
-                <p>
-                    Healthy, premium-quality broilers raised
-                    for households and businesses.
-                </p>
-
-                <a href="products.html" class="btn-primary">
-                    Learn More
-                </a>
-
-            </div>
-
-            <div class="product-card">
-
-                <img src="images/products/portions.png"
-                     alt="Chicken Portions">
-
-                <h3>Chicken Portions</h3>
-
-                <p>
-                    Fresh chicken portions prepared to meet
-                    customer needs.
-                </p>
-
-                <a href="products.html" class="btn-primary">
-                    Learn More
-                </a>
-
-            </div>
-
-        </div>
+  <!-- Products Section -->
+  <section id="products" class="section">
+    <h2>Our Products</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Live Broilers</h3>
+        <img src="image/broilers.png" alt="Live Broilers">
+        <p>Healthy, quality-raised live broilers ready for purchase.</p>
+      </div>
+      <div class="card">
+        <img src="image/portions.png" alt="Chicken Portions">
+        <h3>Chicken Portions</h3>
+        <p>Freshly prepared chicken portions available upon order.</p>
+      </div>
+      <div class="card">
+        <h3>Eggs</h3>
+        <img src="images/products/eggs.png" alt="Fresh Eggs">
+        <p>Fresh farm eggs supplied daily.</p>
+      </div>
+      <div class="card">
+        <h3>Vegetables</h3>
+        <img src="images/products/vegetables.png" alt="Fresh Vegetables">
+        <p>Locally grown fresh produce.</p>
+      </div>
 
         <p class="products-note">
-
-            We also supply fresh eggs and seasonal vegetables.
-            Contact us for availability.
-
-        </p>
-
+          We also supply fresh eggs and seasonal vegetables.
+          Contact us for availability.
+      <p>
     </div>
+  </section>
 
-</section>
-<section class="services">
-
-    <div class="container">
-
-        <span class="section-tag">Our Services</span>
-
-        <h2 class="section-title">
-            More Than Farming
-        </h2>
-
-        <p class="section-description">
-            We don't just produce quality poultry products—we also help
-            individuals and communities grow through practical agricultural
-            knowledge and mentorship.
-        </p>
-
-        <div class="services-grid">
-
-            <div class="service-card">
-
-                <div class="service-icon">
-                    <i class="fa-solid fa-drumstick-bite"></i>
-                </div>
-
-                <h3>Broiler Production</h3>
-
-                <p>
-                    We raise healthy, premium-quality broilers using responsible
-                    and sustainable farming practices.
-                </p>
-
-            </div>
-
-            <div class="service-card">
-
-                <div class="service-icon">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                </div>
-
-                <h3>Agricultural Training</h3>
-
-                <p>
-                    Practical poultry farming training designed to equip
-                    aspiring farmers with valuable production skills.
-                </p>
-
-            </div>
-
-            <div class="service-card">
-
-                <div class="service-icon">
-                    <i class="fa-solid fa-handshake"></i>
-                </div>
-
-                <h3>Mentorship</h3>
-
-                <p>
-                    Guidance and ongoing support for individuals and groups
-                    interested in poultry farming.
-                </p>
-
-            </div>
-
-        </div>
-
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Broiler Production</h3>
+        <p>Raising day-old chicks until they are fully matured and ready for consumption.</p>
+      </div>
+      <div class="card">
+        <h3>Broiler Production Training</h3>
+        <p>Hands-on training programs covering best practices in broiler farming.</p>
+      </div>
+      <div class="card">
+        <h3>Layer Production Training</h3>
+        <p>Comprehensive training on managing and optimizing layer chicken farming.</p>
+      </div>
+      <div class="card">
+        <h3>Mentorship Program</h3>
+        <p>One-on-one mentorship in both broiler and layer farming management.</p>
+      </div>
     </div>
-
-</section>
-<section class="why-us">
+  </section>
+<!-- Explanations-->
+ <section class="why-us">
 
     <div class="container">
 
@@ -325,124 +265,86 @@
     </div>
 
 </section>
-<section class="cta">
+</body>
 
-    <div class="container">
+</html>
+     
 
-        <div class="cta-content">
+    <!--footer-->
 
-            <h2>Ready to Work With Mthethweni Farming?</h2>
+      <footer class="footer">
+        <div class="footer__container">
+             <!--company information-->
+             <!--Logo-->
+             <img src="image/logo.jpg" alt="Mthethweni Farming Logo" class="footer__logo">
 
-            <p>
-                Whether you're looking for quality poultry products,
-                agricultural training or mentorship, we'd love to hear
-                from you.
+        <div class="footer__column">
+            <h3>About us</h3>
+            <h1>Mthwethweni Farming</h1>
+             <p>Providing quality poultry,fresh produce and agricultural
+                training since 2022.</p>  
+            </div>
+
+             <!--quick links-->
+            <div class="footer__column">
+
+               <h3>Quick Link </h3>
+               <ul> 
+                  <li><a href="index.html">Home></a></li>
+                    <li><a href="about.html">about</a></li>
+                     <li><a href="products.html">product</a></li>
+                     <li><a href="service.html">service</a></li>
+                     <li><a href="galerry.html">Gallery</a></li>                   
+                     <li><a href="contact.html">Contact</a></li>
+               </ul>
+
+             </div>
+
+             <!--product--> 
+        <div class="footer__column">
+            <h3>product</h3>
+             <p>Live Broilers</p>p>
+                <p> Chicken Portions</p>
+                  <p>Eggs</p>
+                   <p>Vegetables</p> 
+        </div>
+
+        <!--contact information--> 
+
+           <div class="footer__column">
+
+         <h3>contact</h3>
+
+         <p> Primary Contact person : 
+              Malibongwe Mpilo Ngcobo (Cheif executive officer)
             </p>
 
-            <a href="contact.html" class="btn-primary">
-                Contact Us
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-<footer>
-
-    <div class="container">
-
-        <div class="footer-grid">
-
-            <!-- Company -->
-            <div class="footer-column">
-
-                <img src="images/logo/logo.jpg"
-                     alt="Mthethweni Farming Logo"
-                     class="footer-logo">
-
-                <p>
-                    Mthethweni Farming is committed to producing quality poultry
-                    products while empowering communities through sustainable
-                    agriculture and practical farming knowledge.
+            <p>Contact Phone /  WhatsApp :
+              <i class="fa-solid fa-phone"></i>
+                 0712241858
                 </p>
+    
+           <p>Email : 
+            <i class="fa-solid fa-envelope"></i>
+                mpilomalibongwe24@gmail.com
+              </p>  
 
-            </div>
+           <p>Address:
+            <i class="fa-solid fa-map-marker"></i>
+              Mbongolwane area Eshongwe
+              Kwazulu-Natal
+             South Africa
+                 </p>
 
-            <!-- Quick Links -->
-            <div class="footer-column">
-
-                <h3>Quick Links</h3>
-
-                <ul>
-
-                    <li><a href="index.html">Home</a></li>
-
-                    <li><a href="about.html">About</a></li>
-
-                    <li><a href="products.html">Products</a></li>
-
-                    <li><a href="services.html">Services</a></li>
-
-                    <li><a href="contact.html">Contact</a></li>
-
-                </ul>
-
-            </div>
-
-            <!-- Contact -->
-            <div class="footer-column">
-
-                <h3>Contact</h3>
-
-                <p>
-                    <i class="fa-solid fa-location-dot"></i>
-                    Mbongolwane, Eshowe,
-                    KwaZulu-Natal
-                </p>
-
-                <p>
-                    <i class="fa-solid fa-phone"></i>
-                    0712241858 
-
-                </p>
-
-                <p>
-                    <i class="fa-solid fa-envelope"></i>
-                    mpilomalibongwe24@gmail.com 
-                </p>
-
-            </div>
-
-            <!-- Business Hours -->
-            <div class="footer-column">
-
-                <h3>Business Hours</h3>
-
-                <p>Monday – Friday : 08:00 – 17:00</p>
-
-                <p>Saturday : 08:00 – 13:00</p>
-
-                <p>Sunday : Closed</p>
-
-            </div>
-
-        </div>
-
-        <div class="footer-bottom">
-
-            <p>
-                © 2026 Mthethweni Farming.
-                All Rights Reserved.
-            </p>
-
-        </div>
-
-    </div>
-
-</footer>
-
-<script src="js/script.js"></script>
-
+             </div> 
+             <div>
+              <p> 
+                copyright &copy; 2024 Mthwethweni Farming. All rights reserved.
+              </p>
+             </div>
+        </div>   
+      </footer>
 </body>
 </html>
+
+  
