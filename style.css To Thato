@@ -1,0 +1,264 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'kumbh San',sans-serif;
+}
+.navbar{
+    background: yellowgreen;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+#navbar__logo {
+    background-color: yellow;
+    background-image: linear-gradient(to top, yellowgreen 0%, black 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+fa-gem{
+    margin-right: 0.5rem;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items:center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__items{
+    height: 80px;
+}
+h1{
+    color: white;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-display: fallback;
+}
+.navbar__links {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+.navbar__ btn {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 0 1rem;
+    width: 100%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: yellow;
+    color:white;
+}
+.button:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+}
+.navbar_links:hover {
+    transition: all 0.3s ease-out;
+    background: greenyellow;
+    color: #242424;
+}
+@media screen and (max-width: 960px){
+    .navbar_container{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+}
+navbar__menu{
+    display: flex;
+    flex-direction: auto;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 50vh;
+    margin:0;
+    position: absolute;
+    top: -1000px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+.navbar_menu.active{
+    background: yellow;
+    top: 100px;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99;
+    font-size: 1.8rem;
+}
+.navbar_logo {
+    padding-left: 25px;
+}
+.navbar_toggle.bar {
+ width: 25px;
+ height: 3px;
+ margin: 5px auto;
+ transition: all 0.3s ease-in-out;
+ background: white;
+}
+.navbar_item{
+    width: 100%;
+}
+navbar__links{
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+}
+.navbar_links{
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+}
+mobile-menu{
+    display: block;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(-5%, 20%);
+}
+.navbar_btn{
+    padding-bottom: 20rem;
+}
+.button{
+    padding-bottom: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.navbar__toggle .bar {
+    display: block;   
+    cursor: pointer; 
+}
+
+@mobile-menu.is-active .bar:nth-child(1){
+    transform: rotate(-8px) rotate(-45deg);
+}
+.logo{
+    height:50px;
+    width:auto;
+    margin-right:10px;
+}
+whatsapp_float {
+position: fixed;
+width: 60px;
+height: 60px;
+bottom: 40px;
+right: 40px;
+background-color: #25d366;
+color: #FFF;
+border-radius: 50px;
+text-align: center;
+font-size: 30px;
+box-shadow: 2px 2px 3px #999;
+z-index: 100;
+}
+
+whatsapp-icon {
+margin-top: 16px;
+}
+
+/* For mobile */
+@media screen and (max-width: 767px) {
+.whatsapp-icon {
+margin-top: 10px;
+}
+.whatsapp_float {
+width: 40px;
+height: 40px;
+bottom: 20px;
+right: 10px;
+font-size: 22px;
+}
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin:auto;
+    padding: 0 50px;
+}
+.footer{
+    background:peachpuff;
+    padding: 40px 0;
+}
+.footer__column ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer__column ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.footer__column ul li{
+    margin-bottom: 10px;
+}
+.footer__column ul li a:hover{
+    color: #25d366;
+}
+.footer__column{
+    margin-right: 40px;
+}
+@media (max-width: 768px){
+    .footer__container{
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px){
+    .footer__container{
+        margin-bottom: 30px;
+    }
+}
