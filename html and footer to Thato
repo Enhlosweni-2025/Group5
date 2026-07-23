@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mthwethweni Farming</title>
+    <link rel="stylesheet" href="styles.css ">
+    <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ " alt="Copy" />
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                 <img src="images/logo.png" alt="Mthwethweni Farming Logo" class="logo">
+    <span>Mthwethweni Farming</span>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="" class="navbar__links"> HOME </a>
+                </li>
+                <li class="navbar__item">
+                <a href="/about.html" class ="navbar__links"> about  </a>
+                <a href=" https://wa.me/0712241858" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+                </li>
+                 <li class="navbar__item">
+                    <a href="/product.html"class ="navbar__links"> product  </a>
+                </li>
+                 <li class="navbar__item">
+                    <a href="/service.html"class ="navbar__links"> service  </a>    
+                </li>
+                 <li class="navbar__item">
+                    <a href="/contact.html"class ="navbar__links"> contact  </a>          
+                </li>
+                 <li class="navbar__item">
+                    <a href="/gallery.html"class ="navbar__links"> gallery  </a>                  
+                </li>                 
+                 <li class="navbar__item">
+                    <a href="/"class ="button"> sign up </a>
+                    <a href=" https://wa.me/0712241858" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <!--footer-->
+      <footer class="footer">
+        <div class="footer__container">
+             <!--company information-->
+             <!--Logo-->
+             <img src="images/logo.png" alt="Mthethweni Farming Logo" class="footer__logo">
+        <div class="footer__column">
+            <h3>About us</h3>
+            <h1>Mthwethweni Farming</h1>
+             <p>Providing quality poultry,fresh produce and agricultural
+                training since 2022.</p>  
+            </div>
+
+             <!--quick links-->
+            <div class="footer__column">
+
+               <h3>Quick Link </h3>
+               <ul> 
+                  <li><a href="index.html">Home></a></li>
+                    <li><a href="about.html">about</a></li>
+                     <li><a href="products.html">product</a></li>
+                     <li><a href="service.html">service</a></li>
+                     <li><a href="galerry.html">Gallery</a></li>                   
+                     <li><a href="contact.html">Contact</a></li>
+               </ul>
+
+             </div>
+
+             <!--product--> 
+        <div class="footer__column">
+            <h3>product</h3>
+             <p>Live Broilers</p>p>
+                <p> Chicken Portions</p>
+                  <p>Eggs</p>
+                   <p>Vegetables</p> 
+        </div>
+
+        <!--contact information--> 
+
+           <div class="footer__column">
+
+         <h3>contact</h3>
+
+         <p> Primary Contact person : 
+              Malibongwe Mpilo Ngcobo (Cheif executive officer)
+            </p>
+
+            <p>Contact Phone /  WhatsApp :
+                 0712241858
+                </p>
+    
+           <p>Email : 
+                mpilomalibongwe24@gmail.com
+              </p>  
+
+           <p>Address:
+              Mbongolwane area Eshongwe
+              Kwazulu-Natal
+             South Africa
+                     </p>
+
+             </div> 
+        </div>   
+      </footer>
+</body>
+</html>
