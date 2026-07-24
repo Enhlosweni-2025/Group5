@@ -1101,3 +1101,836 @@
     box-shadow:0 10px 25px rgba(0,0,0,.15);
 
 }
+/*===========================
+for contact.html
+===========================*/
+:root{
+
+    /* Primary Colours */
+
+    --primary-green:#1E7A35;
+    --dark-green:#145226;
+    --light-green:#3FAE49;
+
+    --primary-yellow:#F4C20D;
+    --gold:#E8B100;
+    --light-yellow:#FFD84D;
+
+    /* Neutral Colours */
+
+    --white:#FFFFFF;
+    --off-white:#F8F8F8;
+    --light-gray:#F2F2F2;
+
+    --text:#333333;
+    --dark:#1B1B1B;
+
+    /* Shadows */
+
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+
+    --radius:12px;
+
+}
+.contact-hero{
+
+    background:
+    linear-gradient(rgba(20,82,38,.82),
+    rgba(20,82,38,.82)),
+    url(image/contact-banner.jpg);
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    padding:140px 10%;
+
+    text-align:center;
+
+}
+
+.contact-hero h1{
+
+    font-size:3.5rem;
+
+    color:var(--primary-yellow);
+
+}
+
+.contact-hero p{
+
+    width:60%;
+
+    margin:auto;
+
+    margin-top:20px;
+
+    line-height:1.8;
+
+}
+.contact-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.contact-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:var(--shadow);
+
+transition:.4s;
+
+}
+
+.contact-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.contact-card i{
+
+font-size:40px;
+
+color:var(--primary-yellow);
+
+background:var(--primary-green);
+
+height:80px;
+
+width:80px;
+
+line-height:80px;
+
+border-radius:50%;
+
+margin-bottom:20px;
+
+}
+
+.contact-card h3{
+
+color:var(--primary-green);
+
+margin-bottom:10px;
+
+}
+.contact-form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+.input-group{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:20px;
+
+}
+
+.contact-form input,
+
+.contact-form textarea{
+
+padding:18px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+font-size:16px;
+
+outline:none;
+
+transition:.3s;
+
+}
+
+.contact-form input:focus,
+
+.contact-form textarea:focus{
+
+border-color:var(--primary-yellow);
+
+box-shadow:0 0 10px rgba(244,194,13,.25);
+
+}
+
+.contact-form textarea{
+
+resize:none;
+
+}
+.btn-primary{
+
+display:inline-block;
+
+padding:15px 35px;
+
+background:var(--primary-yellow);
+
+color:var(--dark);
+
+border-radius:50px;
+
+font-weight:700;
+
+text-decoration:none;
+
+transition:.4s;
+
+}
+
+.btn-primary:hover{
+
+background:var(--primary-green);
+
+color:white;
+
+}
+.hours-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+.hours-grid div{
+
+background:white;
+
+padding:30px;
+
+text-align:center;
+
+border-left:5px solid var(--primary-yellow);
+
+box-shadow:var(--shadow);
+
+border-radius:10px;
+
+}
+.faq-item{
+
+background:white;
+
+margin-bottom:20px;
+
+padding:25px;
+
+border-radius:10px;
+
+box-shadow:var(--shadow);
+
+}
+
+.faq-item h3{
+
+color:var(--primary-green);
+
+margin-bottom:10px;
+
+}
+.contact-cta{
+
+padding:90px 10%;
+
+background:linear-gradient(135deg,
+var(--primary-green),
+var(--dark-green));
+
+text-align:center;
+
+color:white;
+
+}
+
+.contact-cta h2{
+
+font-size:3rem;
+
+color:var(--primary-yellow);
+
+margin-bottom:20px;
+
+}
+
+.contact-cta p{
+
+margin-bottom:30px;
+
+font-size:18px;
+
+}
+.map-container{
+
+margin-top:40px;
+
+border-radius:15px;
+
+overflow:hidden;
+
+box-shadow:var(--shadow);
+
+}
+
+.map-container iframe{
+
+width:100%;
+
+height:450px;
+
+border:none;
+
+}
+@media(max-width:768px){
+
+.contact-hero h1{
+
+font-size:2.5rem;
+
+}
+
+.contact-hero p{
+
+width:100%;
+
+}
+
+.input-group{
+
+grid-template-columns:1fr;
+
+}
+
+}
+/* HERO */
+
+.services-hero{
+
+padding:140px 10%;
+
+text-align:center;
+
+background:linear-gradient(rgba(20,82,38,.85),
+rgba(20,82,38,.85)),
+url(image/service-banner.jpg);
+
+background-size:cover;
+
+color:white;
+
+}
+
+.services-hero h1{
+
+font-size:3.5rem;
+
+color:var(--primary-yellow);
+
+margin:20px 0;
+
+}
+
+.services{
+
+padding:100px 10%;
+
+background:#fff;
+
+}
+
+.service-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.service-card{
+
+background:#fff;
+
+padding:40px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:var(--shadow);
+
+transition:.4s;
+
+}
+
+.service-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.service-card i{
+
+font-size:45px;
+
+color:var(--primary-yellow);
+
+background:var(--primary-green);
+
+height:90px;
+
+width:90px;
+
+line-height:90px;
+
+border-radius:50%;
+
+margin-bottom:20px;
+
+}
+
+.service-card h3{
+
+color:var(--primary-green);
+
+margin-bottom:15px;
+
+}
+
+.bulk-service{
+
+padding:100px 10%;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+
+gap:60px;
+
+align-items:center;
+
+background:var(--off-white);
+
+}
+
+.bulk-image img{
+
+width:100%;
+
+border-radius:20px;
+
+}
+
+.bulk-content ul{
+
+margin:30px 0;
+
+}
+
+.bulk-content li{
+
+margin-bottom:15px;
+
+}
+
+.service-process{
+
+padding:100px 10%;
+
+}
+
+.process-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.process-grid div{
+
+background:white;
+
+padding:35px;
+
+text-align:center;
+
+box-shadow:var(--shadow);
+
+border-radius:15px;
+
+}
+
+.process-grid span{
+
+display:inline-block;
+
+height:60px;
+
+width:60px;
+
+line-height:60px;
+
+border-radius:50%;
+
+background:var(--primary-yellow);
+
+font-size:24px;
+
+font-weight:bold;
+
+margin-bottom:20px;
+
+}
+
+.service-features{
+
+padding:100px 10%;
+
+background:var(--off-white);
+
+}
+
+.feature-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.feature-grid div{
+
+background:white;
+
+padding:35px;
+
+text-align:center;
+
+border-radius:15px;
+
+box-shadow:var(--shadow);
+
+}
+
+.feature-grid i{
+
+font-size:45px;
+
+color:var(--primary-green);
+
+margin-bottom:20px;
+
+}
+
+.service-cta{
+
+padding:90px 10%;
+
+background:linear-gradient(135deg,
+var(--primary-green),
+var(--dark-green));
+
+text-align:center;
+
+color:white;
+
+}
+
+.service-cta h2{
+
+font-size:3rem;
+
+color:var(--primary-yellow);
+
+margin-bottom:20px;
+
+}
+
+@media(max-width:768px){
+
+.services-hero h1{
+
+font-size:2.5rem;
+
+}
+
+.bulk-service{
+
+grid-template-columns:1fr;
+
+}
+
+}
+/*=====================================
+        SIGN UP PAGE
+======================================*/
+
+.signup{
+    padding:100px 8%;
+    background:#f8f9f5;
+}
+
+.signup-container{
+    max-width:1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+}
+
+/*=====================================
+        LEFT SIDE
+======================================*/
+
+.signup-info{
+    background:linear-gradient(135deg,#145226,#1E7A35);
+    color:#fff;
+    padding:60px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.signup-info h2{
+    font-size:2.5rem;
+    color:#FFD84D;
+    margin-bottom:20px;
+}
+
+.signup-info p{
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.signup-info ul{
+    list-style:none;
+}
+
+.signup-info ul li{
+    margin-bottom:18px;
+    font-size:17px;
+}
+
+.signup-info ul li i{
+    color:#FFD84D;
+    margin-right:10px;
+}
+
+/*=====================================
+        FORM
+======================================*/
+
+.signup-form{
+    padding:60px;
+}
+
+.signup-form h2{
+    color:#145226;
+    margin-bottom:15px;
+    font-size:2rem;
+}
+
+.signup-form p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.form-group{
+    margin-bottom:20px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:8px;
+    color:#145226;
+    font-weight:600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+
+    width:100%;
+    padding:15px;
+
+    border:1px solid #ddd;
+    border-radius:10px;
+
+    outline:none;
+
+    transition:.3s;
+    font-size:15px;
+
+}
+
+.form-group textarea{
+    resize:none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+
+    border-color:#F4C20D;
+
+    box-shadow:0 0 10px rgba(244,194,13,.3);
+
+}
+
+/*=====================================
+        BUTTON
+======================================*/
+
+.signup-btn{
+
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    background:#F4C20D;
+
+    color:#222;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+}
+
+.signup-btn:hover{
+
+    background:#1E7A35;
+
+    color:#fff;
+
+}
+
+/*=====================================
+        LOGIN LINK
+======================================*/
+
+.login-link{
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+.login-link a{
+
+    color:#1E7A35;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.login-link a:hover{
+
+    color:#F4C20D;
+
+}
+
+/*=====================================
+        RESPONSIVE
+======================================*/
+
+@media(max-width:900px){
+
+.signup-container{
+
+grid-template-columns:1fr;
+
+}
+
+.signup-info{
+
+padding:40px;
+
+text-align:center;
+
+}
+
+.signup-form{
+
+padding:40px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.signup{
+
+padding:70px 20px;
+
+}
+
+.signup-info h2{
+
+font-size:2rem;
+
+}
+
+.signup-form h2{
+
+font-size:1.8rem;
+
+}
+
+}
