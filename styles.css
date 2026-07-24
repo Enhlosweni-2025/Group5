@@ -471,7 +471,7 @@
    FEATURES / WHY CHOOSE US CARDS
 ========================== */
 
-..feature-card i{
+.feature-card i{
 
     width:70px;
 
@@ -824,7 +824,7 @@
     color:var(--text-light);
     line-height:1.8;
 }
-* ==========================
+/* ==========================
    TESTIMONIALS
 ========================== */
 
