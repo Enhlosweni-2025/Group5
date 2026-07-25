@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Mthethweni Farming (Pty) Ltd</title>
+    <meta name="description" content="Contact Mthethweni Farming via phone, WhatsApp, email, or visit our farm unit in Mbongolwane, Eshowe.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">
+                <img src="image/logo.jpg" alt="Mthethweni Farming Logo" class="logo">
+                <span>Mthethweni Farming</span>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about.html" class="navbar__links">ABOUT</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="product.html" class="navbar__links">PRODUCTS</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="service.html" class="navbar__links">SERVICES</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="contact.html" class="navbar__links active">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/27712241858" class="whatsapp_float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Page Hero Banner -->
+    <section class="page-hero page-hero--contact">
+        <div class="container">
+            <span class="section-tag">Get In Touch</span>
+            <h1>We'd Love To Hear From You</h1>
+            <p>Whether you are ordering fresh broilers, placing a bulk order, or making poultry training inquiries, our team is ready to assist.</p>
+        </div>
+    </section>
+
+    <!-- Contact Info Cards -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="section-tag">Contact Options</span>
+                <h2>Choose How to Reach Us</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Call Us</h3>
+                    <p><strong>Primary Phone:</strong><br>+27 76 129 7336</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <h3>WhatsApp Desk</h3>
+                    <p><strong>Instant Messaging:</strong><br>+27 71 224 1858</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p><strong>Official Email:</strong><br>mpilomalibongwe24@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Visit Us</h3>
+                    <p><strong>Farm Unit Location:</strong><br>Mbongolwane Area, Eshowe, KZN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Business Hours Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="section-tag">Send A Message</span>
+                <h2>Direct Enquiry Form</h2>
+                <p class="section-description">Fill out the details below and our team will get back to you promptly.</p>
+            </div>
+
+            <form class="contact-form">
+                <div class="input-group">
+                    <div class="form-field">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" placeholder="e.g. +27 71 224 1858" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="form-field">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="yourname@example.com">
+                    </div>
+                    <div class="form-field">
+                        <label for="subject">Enquiry Type *</label>
+                        <select id="subject" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="Live Broiler Order">Live Broiler Order</option>
+                            <option value="Chicken Portions Order">Chicken Portions Order</option>
+                            <option value="Eggs / Produce Order">Eggs / Produce Order</option>
+                            <option value="Bulk Supply Quote">Bulk Supply Quote</option>
+                            <option value="Poultry Mentorship & Training">Poultry Mentorship & Training</option>
+                            <option value="General Enquiry">General Enquiry</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label for="message">Your Message / Order Quantity *</label>
+                    <textarea id="message" rows="6" placeholder="Specify quantities, preferred collection/delivery date, or your questions..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary" style="width: 100%; font-size: 1.1rem; padding: 16px;">
+                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Business Hours & Operating Times -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="section-tag">Schedule</span>
+                <h2>Business & Farm Collection Hours</h2>
+            </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <i class="fa-solid fa-calendar-days" style="font-size: 2.2rem; color: var(--primary); margin-bottom: 12px;"></i>
+                    <h3>Monday – Friday</h3>
+                    <p><strong>08:00 AM – 06:00 PM</strong><br>Full farm pickup & delivery dispatch</p>
+                </div>
+                <div class="process-step">
+                    <i class="fa-solid fa-calendar-week" style="font-size: 2.2rem; color: var(--primary); margin-bottom: 12px;"></i>
+                    <h3>Saturday – Sunday</h3>
+                    <p><strong>08:00 AM – 04:00 PM</strong><br>Weekend collections & customer support</p>
+                </div>
+                <div class="process-step">
+                    <i class="fa-solid fa-calendar-day" style="font-size: 2.2rem; color: var(--primary); margin-bottom: 12px;"></i>
+                    <h3>Public Holidays</h3>
+                    <p><strong>By Appointment</strong><br>Prior WhatsApp arrangement required</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section map-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="section-tag">Farm Directions</span>
+                <h2>Locate Mthethweni Farming</h2>
+                <p class="section-description">Mbongolwane Area, Eshowe, KwaZulu-Natal, South Africa.</p>
+            </div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps?q=-28.920222,31.228056&output=embed"
+                    allowfullscreen=""
+                    loading="lazy"
+                    title="Mthethweni Farming Location Map">
+                </iframe>
+            </div>
+            <div class="get-directions">
+                <a href="https://www.google.com/maps/dir/?api=1&destination=-28.920222,31.228056" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                    <i class="fa-solid fa-diamond-turn-right"></i> Open Navigation in Google Maps
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Order Fresh Broilers Directly via WhatsApp</h2>
+            <p>Skip the forms and get instant replies from our farm office on WhatsApp.</p>
+            <a href="https://wa.me/27712241858" target="_blank" class="btn-primary" style="background: #25D366; border-color: #25D366; color: white !important;">
+                <i class="fa-brands fa-whatsapp"></i> Chat On WhatsApp (+27 71 224 1858)
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__column">
+                    <div class="footer__logo-wrap">
+                        <img src="image/logo.jpg" alt="Mthethweni Farming Logo">
+                        <span>Mthethweni Farming</span>
+                    </div>
+                    <p>Providing quality broiler poultry, fresh produce, and sustainable agricultural mentorship in Mbongolwane, Eshowe since 2022.</p>
+                </div>
+                <div class="footer__column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="product.html">Live Broilers</a></li>
+                        <li><a href="product.html">Chicken Portions</a></li>
+                        <li><a href="product.html">Fresh Eggs</a></li>
+                        <li><a href="product.html">Vegetables</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h3>Contact Information</h3>
+                    <div class="footer__contact-item">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Malibongwe Mpilo Ngcobo (CEO)</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+27 76 129 7336</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>+27 71 224 1858</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>mpilomalibongwe24@gmail.com</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Mbongolwane Area, Eshowe, KZN, South Africa</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mthethweni Farming (Pty) Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
